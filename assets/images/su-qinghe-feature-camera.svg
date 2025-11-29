@@ -1,0 +1,10 @@
+<svg width="640" height="400" viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="相機與柔光">
+  <rect width="640" height="400" rx="22" fill="#0f0b1f"/>
+  <circle cx="470" cy="140" r="110" fill="#fef3d2" opacity="0.25"/>
+  <rect x="120" y="130" width="320" height="180" rx="28" fill="#241032" stroke="#f6dce9" stroke-width="12"/>
+  <circle cx="280" cy="220" r="70" fill="#f6dce9" opacity="0.3"/>
+  <circle cx="280" cy="220" r="54" fill="none" stroke="#f6dce9" stroke-width="10"/>
+  <rect x="190" y="120" width="60" height="30" rx="10" fill="#f6dce9"/>
+  <circle cx="420" cy="195" r="16" fill="#f6dce9"/>
+  <path d="M160 310c60 10 140 10 210 0" fill="none" stroke="#f6dce9" stroke-width="8" stroke-linecap="round" stroke-opacity="0.45"/>
+</svg>
