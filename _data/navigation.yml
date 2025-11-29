@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "關於青秋"
+    url: /about/
+  - title: "詩與散文"
+    url: /writing/
+  - title: "攝影與聲音"
+    url: /portfolio/
+  - title: "靈感札記"
+    url: /notes/
+  - title: "聯絡"
+    url: /contact/

@@ -1,0 +1,13 @@
+<svg width="1600" height="640" viewBox="0 0 1600 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="墨色波紋">
+  <defs>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f1b26"/>
+      <stop offset="60%" stop-color="#373150"/>
+      <stop offset="100%" stop-color="#7a6fa0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="640" fill="#f6f0f7"/>
+  <path d="M-40 240 C 220 360 420 140 760 220 C 1100 300 1200 120 1640 200 L 1640 700 L -40 700 Z" fill="url(#wave)" opacity="0.75"/>
+  <path d="M-40 320 C 260 420 460 240 800 300 C 1140 360 1300 250 1640 320 L 1640 700 L -40 700 Z" fill="#b45f8a" opacity="0.3"/>
+  <path d="M-40 380 C 200 460 420 360 780 420 C 1120 480 1320 390 1640 460 L 1640 700 L -40 700 Z" fill="#5d6fb3" opacity="0.28"/>
+</svg>
