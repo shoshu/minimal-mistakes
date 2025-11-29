@@ -1,0 +1,18 @@
+<svg width="960" height="520" viewBox="0 0 960 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="紙燈籠插畫">
+  <defs>
+    <linearGradient id="lantern" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f7aa8f" />
+      <stop offset="100%" stop-color="#f6b7a6" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="520" fill="#fdf1e5" />
+  <path d="M140 180 Q220 120 340 200 T620 190 T820 220" stroke="#7b6ee3" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.6" />
+  <circle cx="320" cy="260" r="110" fill="url(#lantern)" stroke="#7b6ee3" stroke-width="8" />
+  <path d="M320 150 V100" stroke="#7b6ee3" stroke-width="10" stroke-linecap="round" />
+  <path d="M320 370 V420" stroke="#f6b7a6" stroke-width="12" stroke-linecap="round" />
+  <rect x="520" y="180" width="200" height="220" rx="30" fill="#2c253d" opacity="0.85" />
+  <path d="M560 230 H660" stroke="#fdf1e5" stroke-width="10" stroke-linecap="round" />
+  <path d="M560 270 H650" stroke="#fdf1e5" stroke-width="8" stroke-linecap="round" />
+  <path d="M560 310 H640" stroke="#fdf1e5" stroke-width="8" stroke-linecap="round" />
+  <text x="140" y="120" font-family="'Cormorant Garamond', 'Noto Serif TC', serif" font-size="56" fill="#7b6ee3">霧中的紙燈籠</text>
+</svg>
