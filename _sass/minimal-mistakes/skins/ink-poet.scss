@@ -1,0 +1,36 @@
+// Ink Poet skin — 柔霧色系，適合文藝青年的閱讀感
+$background-color: #f7f2ec;
+$text-color: #2f2620;
+$muted-text-color: #5f5248;
+$primary-color: #c06b58;
+$border-color: #e3d9cf;
+$caption-color: #7d6f65;
+$link-color: #b54a3a;
+$link-color-hover: darken($link-color, 6%);
+$btn-text-color: #fefaf5;
+$footer-background-color: #201511;
+
+// Masthead
+$masthead-background: rgba(32, 21, 17, 0.88);
+$masthead-link-color: #f6eee5;
+$masthead-link-color-hover: lighten($primary-color, 10%);
+$masthead-link-color-active: lighten($primary-color, 5%);
+
+// Accent blocks
+$code-background-color: #f0e7dc;
+$code-text-color: #3b2f28;
+$table-background-color: #fdfaf6;
+$table-border-color: #e3d9cf;
+
+// Buttons
+$btn-primary-color: $link-color;
+$btn-primary-background: transparent;
+$btn-primary-border: $link-color;
+$btn-primary-color-hover: #fefaf5;
+$btn-primary-background-hover: $link-color;
+$btn-primary-border-hover: $link-color;
+
+// Notices
+$notice-background-fg: rgba(192, 107, 88, 0.08);
+$notice-background: $notice-background-fg;
+$notice-border: $link-color;
