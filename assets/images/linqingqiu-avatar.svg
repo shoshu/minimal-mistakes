@@ -1,0 +1,20 @@
+<svg width="360" height="360" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="林青秋手繪頭像">
+  <defs>
+    <linearGradient id="cheek" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop stop-color="#f7d9e2" offset="0%"/>
+      <stop stop-color="#f1c8d4" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="360" rx="52" fill="#1f1b26"/>
+  <circle cx="180" cy="150" r="96" fill="#f7eadf"/>
+  <circle cx="140" cy="156" r="18" fill="#1f1b26"/>
+  <circle cx="220" cy="156" r="18" fill="#1f1b26"/>
+  <path d="M140 200 C 160 220 200 220 220 200" stroke="#1f1b26" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M118 132 Q 142 108 180 112 Q 218 116 242 132" stroke="#1f1b26" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M180 80 C 118 72 86 110 78 160 C 74 186 78 210 90 230" stroke="#1f1b26" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M180 80 C 242 72 274 110 282 160 C 286 186 282 210 270 230" stroke="#1f1b26" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <rect x="90" y="240" width="180" height="70" rx="30" fill="url(#cheek)" opacity="0.85"/>
+  <path d="M130 250 C 150 274 210 274 230 250" stroke="#c07ba6" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="128" cy="180" r="8" fill="#f7d9e2"/>
+  <circle cx="232" cy="180" r="8" fill="#f7d9e2"/>
+</svg>

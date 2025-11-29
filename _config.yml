@@ -12,16 +12,16 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "zh-TW"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "林青秋的霧城手札"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+subtitle                 : "手寫詩行、底片、靈感紀錄"
+name                     : "林青秋"
+description              : "一位在港邊寫詩、拍底片、收藏舊書的文藝青年。"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -90,18 +90,20 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : linqingqiu
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : /assets/images/linqingqiu-hero.svg
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : 林青秋
+  links:
+    - "https://www.instagram.com/lin.qingqiu"
+    - "https://linqingqiu.example.com"
 
 # Analytics
 analytics:
@@ -113,53 +115,38 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "林青秋"
+  avatar           : "/assets/images/linqingqiu-avatar.svg"
+  bio              : "來自霧港的文藝青年，寫詩、攝影、播客並收集關於城市的溫柔聲音。"
+  location         : "霧城・海邊舊書店"
+  email            : "lin.qingqiu@email.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "mailto:lin.qingqiu@email.com"
+    - label: "Podcast"
+      icon: "fas fa-fw fa-microphone"
+      url: "https://listen.notes/linqingqiu"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/lin.qingqiu"
+    - label: "寫作刊物"
+      icon: "fas fa-fw fa-book-open"
+      url: "https://linqingqiu.example.com/publications"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
-  since: "2013"
+      url: "https://www.instagram.com/lin.qingqiu"
+    - label: "寫作訂閱"
+      icon: "fas fa-fw fa-leaf"
+      url: "https://linqingqiu.example.com/letters"
+    - label: "RSS"
+      icon: "fas fa-fw fa-rss"
+      url: "/feed.xml"
+  since: "2020"
 
 
 # Reading Files
