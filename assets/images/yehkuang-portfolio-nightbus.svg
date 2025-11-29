@@ -1,0 +1,11 @@
+<svg width="960" height="520" viewBox="0 0 960 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="夜行巴士粉彩插畫">
+  <rect width="960" height="520" fill="#1f1b2e" />
+  <rect x="60" y="120" width="840" height="300" rx="20" fill="#2c2740" stroke="#f7aa8f" stroke-width="8" />
+  <rect x="100" y="150" width="200" height="180" rx="12" fill="#f7aa8f" opacity="0.8" />
+  <rect x="340" y="150" width="220" height="180" rx="12" fill="#7b6ee3" opacity="0.7" />
+  <rect x="600" y="150" width="220" height="180" rx="12" fill="#8fb8cc" opacity="0.75" />
+  <path d="M90 350 Q180 420 300 360 T540 360 T840 380" stroke="#f0c2ae" stroke-width="16" fill="none" stroke-linecap="round" />
+  <path d="M60 400 H860" stroke="#fdf1e5" stroke-width="10" stroke-linecap="round" opacity="0.6" />
+  <circle cx="770" cy="120" r="32" fill="#f6b7a6" />
+  <circle cx="820" cy="420" r="26" fill="#7b6ee3" opacity="0.65" />
+</svg>

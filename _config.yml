@@ -12,23 +12,23 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "zh-TW"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "許野光｜霧街手札"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+subtitle                 : "詩、插畫與午夜散步"
+name                     : "許野光"
+description              : "台北的文藝青年許野光，用詩、速寫和錄音捕捉城市的霧氣與心情。"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+logo                     : "/assets/images/yehkuang-avatar.svg"
+masthead_title           : "霧街手札"
+breadcrumbs              : true
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
@@ -90,18 +90,21 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : yehkuang_poetry
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/yehkuang-hero.svg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "許野光"
+  links:
+    - "https://instagram.com/yehkuang.sketches"
+    - "https://www.behance.net/yehkuang"
+    - "https://open.spotify.com/user/nightwalk-notes"
 
 # Analytics
 analytics:
@@ -113,53 +116,41 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "許野光 Yeh-Kuang"
+  avatar           : "/assets/images/yehkuang-avatar.svg"
+  bio              : "插畫詩人，喜歡在凌晨的捷運車廂記錄城市呼吸，收集光斑與風聲。"
+  location         : "台北 Taipei"
+  email            : "hello@yehkuang.studio"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:hello@yehkuang.studio"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/yehkuang.sketches"
+    - label: "Behance"
+      icon: "fab fa-fw fa-behance"
+      url: "https://www.behance.net/yehkuang"
+    - label: "Spotify 播放清單"
+      icon: "fab fa-fw fa-spotify"
+      url: "https://open.spotify.com/user/nightwalk-notes"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
-  since: "2013"
+      url: "https://instagram.com/yehkuang.sketches"
+    - label: "Behance"
+      icon: "fab fa-fw fa-behance"
+      url: "https://www.behance.net/yehkuang"
+    - label: "Spotify"
+      icon: "fab fa-fw fa-spotify"
+      url: "https://open.spotify.com/user/nightwalk-notes"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:hello@yehkuang.studio"
+  since: "2018"
 
 
 # Reading Files
