@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Space+Grotesk:wght@400;500&display=swap');
+
+body {
+  font-family: 'Noto Serif TC', 'PingFang TC', serif;
+  letter-spacing: 0.02em;
+  background: radial-gradient(circle at 20% 20%, rgba(192, 107, 88, 0.08), transparent 35%),
+              radial-gradient(circle at 80% 0%, rgba(53, 38, 32, 0.06), transparent 30%),
+              #f7f2ec;
+}
+
+.site-title, .masthead__menu-item a {
+  font-family: 'Space Grotesk', 'Noto Serif TC', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.intro-feature {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: rgba(192, 107, 88, 0.06);
+  border-radius: 14px;
+  border: 1px solid rgba(192, 107, 88, 0.15);
+}
+
+.intro-feature h2 {
+  font-family: 'Space Grotesk', 'Noto Serif TC', sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.intro-feature ol {
+  padding-left: 1.1rem;
+  margin: 0;
+}
+
+.feature-block {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(32, 21, 17, 0.05);
+}
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.highlight-grid article {
+  background: #fffaf4;
+  border: 1px solid rgba(192, 107, 88, 0.18);
+  border-radius: 12px;
+  padding: 1.1rem 1.3rem;
+  box-shadow: 0 10px 24px rgba(32, 21, 17, 0.05);
+}
+
+.highlight-grid h3 {
+  margin-top: 0.2rem;
+  letter-spacing: 0.04em;
+}
+
+.btn {
+  font-family: 'Space Grotesk', 'Noto Serif TC', sans-serif;
+  letter-spacing: 0.04em;
+  border-radius: 999px;
+  padding: 0.55rem 1.15rem;
+}
+
+.cta-banner {
+  background: linear-gradient(120deg, rgba(192, 107, 88, 0.22), rgba(32, 21, 17, 0.12));
+  color: #fefaf5;
+  padding: 1.1rem 1.4rem;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(32, 21, 17, 0.15);
+}
+
+.cta-banner a {
+  color: #fefaf5;
+  border-bottom: 1px solid rgba(255, 250, 245, 0.6);
+}
+
+.page__content h1, .page__content h2, .page__content h3, .page__content h4 {
+  letter-spacing: 0.04em;
+}
+
+.page__content blockquote {
+  border-left: 3px solid rgba(192, 107, 88, 0.5);
+  background: rgba(192, 107, 88, 0.05);
+  font-style: italic;
+  color: $muted-text-color;
+}
+
+.sidebar .author__content h3 {
+  font-family: 'Space Grotesk', 'Noto Serif TC', sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.sidebar .author__urls-wrapper {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid rgba(192, 107, 88, 0.15);
+}
+
+@media (max-width: 768px) {
+  .intro-feature, .highlight-grid {
+    padding: 1rem;
+  }
+}
