@@ -1,0 +1,27 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="紫色夜空與河面倒影的抽象畫">
+  <defs>
+    <linearGradient id="dawn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e0b1f"/>
+      <stop offset="35%" stop-color="#2f1a3b"/>
+      <stop offset="70%" stop-color="#6c3d67"/>
+      <stop offset="100%" stop-color="#e9c4cf"/>
+    </linearGradient>
+    <radialGradient id="moonbeam" cx="78%" cy="22%" r="35%">
+      <stop offset="0%" stop-color="#fef6da" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#f1ddea" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#160f27" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#dawn)"/>
+  <rect width="1600" height="900" fill="url(#moonbeam)"/>
+  <path d="M0 520 C300 470 480 470 800 520 C1180 585 1290 630 1600 610 L1600 900 L0 900 Z" fill="#130b1f" opacity="0.55"/>
+  <path d="M0 600 C200 570 480 630 760 610 C1040 590 1330 650 1600 640 L1600 900 L0 900 Z" fill="#241132" opacity="0.4"/>
+  <path d="M0 700 C260 760 560 760 820 705 C1040 658 1320 690 1600 740 L1600 900 L0 900 Z" fill="#f6dce9" opacity="0.2"/>
+  <circle cx="1250" cy="210" r="120" fill="#ffeec4" opacity="0.6"/>
+  <circle cx="1260" cy="200" r="160" fill="#f6dce9" opacity="0.25"/>
+  <g opacity="0.35" stroke="#ffeec4" stroke-width="8" stroke-linecap="round">
+    <path d="M180 200c40-12 110-12 150 0"/>
+    <path d="M360 185c60-18 140-18 200 0"/>
+    <path d="M680 210c40-12 110-12 150 0"/>
+  </g>
+</svg>

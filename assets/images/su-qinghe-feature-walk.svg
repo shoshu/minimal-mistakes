@@ -1,0 +1,19 @@
+<svg width="640" height="400" viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="行走城市的抽象剪影">
+  <defs>
+    <linearGradient id="path" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0f28"/>
+      <stop offset="100%" stop-color="#40234d"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" rx="22" fill="#f6ecff"/>
+  <path d="M0 270 C100 220 210 220 310 270 C410 320 520 320 640 270 L640 400 L0 400 Z" fill="#e3d4f9"/>
+  <path d="M0 250 C120 200 230 200 330 250 C430 300 540 300 640 250" fill="url(#path)" opacity="0.65"/>
+  <rect x="150" y="90" width="40" height="140" rx="14" fill="#241032"/>
+  <rect x="230" y="120" width="40" height="120" rx="14" fill="#40234d"/>
+  <rect x="320" y="80" width="44" height="160" rx="14" fill="#1a0f28"/>
+  <rect x="400" y="110" width="38" height="130" rx="14" fill="#744b8c"/>
+  <circle cx="180" cy="230" r="18" fill="#ffe9c7"/>
+  <circle cx="260" cy="230" r="18" fill="#f6dce9"/>
+  <circle cx="340" cy="230" r="18" fill="#ffe9c7"/>
+  <circle cx="420" cy="230" r="18" fill="#f6dce9"/>
+</svg>
